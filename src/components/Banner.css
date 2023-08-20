@@ -1,0 +1,41 @@
+.banner{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.banner-contents{
+    margin: 0 20px;
+}
+
+.banner-title{
+    font-size: 4rem;
+}
+
+.banner-button{
+    background-color:rgba(96, 96, 96, 0.4);
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 1.15rem;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.banner-button:hover{
+    transform: scale(1.06);
+    color: black;
+    background-color: white;
+}
+
+.banner-description{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.banner-fadebottom{
+    height: 10rem;
+    background: linear-gradient(360deg, black, transparent);
+}
